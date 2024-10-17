@@ -2,10 +2,10 @@
 // Run on NodeJS or Browser
 
 function getData(dataId, getNextData) {
-    console.log(`Getting data for ${dataId}.....`);
+    console.log(`Getting data for ${dataId}...`);
 
     setTimeout(function() {
-        console.log(`Fetched data for ${dataId}.\n`);
+        console.log(`Fetched data for ${dataId}\n`);
         setTimeout(function() {getNextData(dataId)}, 1000); // Trigger the next data fetch after 1 second
     }, 2000);
     
