@@ -12,7 +12,7 @@ function getData(dataId, getNextData) {
 }
 
 getData(1, function() { // First call
-    getData(2, function() { // Second call nested
+    getData(2, function() { // Second nested call 
         getData(3, function() { // Third call
              getData(4, function() { // Fourth call
                 getData(5, function() { // Fifth call
