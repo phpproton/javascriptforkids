@@ -6,7 +6,7 @@ function getData(dataId, getNextData) {
 
     setTimeout(function() {
         console.log(`Fetched data for ${dataId}.\n`);
-        getNextData(dataId); // Trigger the next data fetch
+        setTimeout(function() {getNextData(dataId)}, 1000); // Trigger the next data fetch after 1 second
     }, 2000);
     
 }
