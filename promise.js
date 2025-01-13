@@ -1,3 +1,6 @@
+// Rohit: Illustrating Promises in JavaScript.
+// Run on NodeJS or Browser
+
 const promise = new Promise((resolve, reject) => {
 
     const data = {
@@ -25,5 +28,8 @@ promise.then(data => {
 })
     .then(data => {
             console.log(`Data updated with lastName: ${JSON.stringify(data)}`);
+            return data;
         }
-    );
+    )
+
+    .finally((data) => console.log(`Completed.`))
