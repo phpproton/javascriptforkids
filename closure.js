@@ -5,7 +5,7 @@
 
 // Make General Multipliers with Closures
 function makeMultiplier(multiplier) {
-  // This function below encloses the 'multiplier' parameter with it as soon as it is returned on lines 16 or 17
+  // This function below encloses the 'multiplier' parameter with it as soon as it is returned on lines 17 or 18
   return function (number) {
     console.log(
       `Number ${number} multiplied by ${multiplier} is ${number * multiplier}.`,
