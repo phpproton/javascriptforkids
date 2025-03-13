@@ -1,5 +1,5 @@
 // Rohit: Illustrating Proxy Object in JavaScript.
-// Run on NodeJS or Browser
+// Run on Deno, NodeJS or Browser
 
 // Target object
 const target = {
