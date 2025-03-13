@@ -1,5 +1,5 @@
 // Rohit: Function to fetch data from JSONPlaceholder API
-// Run on NodeJS or Browser
+// Run on Deno, NodeJS or Browser
 
 async function fetchData(url) {
     try {
