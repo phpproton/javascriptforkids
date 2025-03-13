@@ -1,6 +1,8 @@
 // Rohit: Illustrating Promises in JavaScript.
 // Run on NodeJS or Browser
 
+// resolve and reject are just handlers/hooks/lambdas/closures/delegates/interceptors/middlewares
+// All the above shibboleths mentioned are just crazy buzzwords for one thing -> Callback Function
 const promise = new Promise((resolve, reject) => {
   const data = {
     firstName: "Samar",
