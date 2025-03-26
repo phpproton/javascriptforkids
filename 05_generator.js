@@ -1,5 +1,5 @@
 // Rohit: Illustrating Generator in JavaScript.
-// Run on Deno, NodeJS or Browser
+// Run on Node, Deno, Bun or Browser
 
 // Define a generator function that yields a sequence of numbers
 function* numberGenerator() {
