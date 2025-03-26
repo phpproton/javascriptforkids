@@ -1,5 +1,5 @@
 // Rohit: Illustrating Prototypes in JavaScript.
-// Run on Deno, NodeJS or Browser
+// Run on Node, Deno, Bun or Browser
 
 const cat = new Object({
   species: "cat",
