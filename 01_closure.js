@@ -1,5 +1,5 @@
 // Rohit: Illustrating Closures in JavaScript.
-// Run on Deno, NodeJS or Browser
+// Run on Node, Deno, Bun or Browser
 
 // Closure is nothing but just a 'function inside a function'
 
