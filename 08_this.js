@@ -1,5 +1,5 @@
 // Rohit: Illustrating this Context in JavaScript.
-// Run on Deno, NodeJS or Browser
+// Run on Node, Deno, Bun or Browser
 
 const person1 = {
   name: "Samar",
