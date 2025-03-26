@@ -1,5 +1,5 @@
 // Rohit: Illustrating the Callback Hell in JavaScript.
-// Run on Deno, NodeJS or Browser
+// Run on Node, Deno, Bun or Browser
 
 function getData(dataId, getNextData) {
     console.log(`Getting data for ${dataId}...`);
