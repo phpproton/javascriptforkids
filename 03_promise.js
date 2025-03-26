@@ -1,5 +1,5 @@
 // Rohit: Illustrating Promises in JavaScript.
-// Run on Deno, NodeJS or Browser
+// Run on Node, Deno, Bun or Browser
 
 // resolve and reject are just handlers/hooks/lambdas/closures/delegates/interceptors/middlewares
 // All the above shibboleths mentioned are just crazy buzzwords for one thing -> Callback Function
