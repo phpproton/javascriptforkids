@@ -24,8 +24,9 @@ if (!$handle) {
 }
 
 while (($line = fgets($handle)) !== false) {
-    if (preg_match("/($pattern)/", $line, $matches)) {
-        $coloredLine = str_replace($matches[1], "$RED{$matches[1]}$RESET", $line);
+    if (preg_match("/$pattern/", $line, $matches)) {
+        $coloredLine = str_replace($matches[0], "$RED{$matches[0]}$RESET", $line);
+        //print_r($matches);
         echo $coloredLine;
     }
 }
