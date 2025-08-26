@@ -1,2 +1,2 @@
-# javascriptforkids
-Rohit Chauhan: Fun JavaScript/TypeScript programs written by me to teach software engineering to kids.
+# pulsar-micro
+Rohit Chauhan: Micro-framework for FastAPI, RESTful services, and AI integration.
